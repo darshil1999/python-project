@@ -12,7 +12,7 @@ heading = Label(root, text="PASSWORD GENERATOR", font='arial 15 bold').pack()
 
 pass_label = Label(root, text="Password Length", font="arial 10 bold").pack()
 pass_len = IntVar()
-length = Spinbox(root, from_=8,to_=32, textvariable=pass_len, width=15).pack()
+length = Spinbox(root, from_=7,to_=32, textvariable=pass_len, width=15).pack()
 
 
 pass_str = StringVar()
