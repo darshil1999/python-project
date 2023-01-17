@@ -65,7 +65,6 @@ class App(tk.Tk):
 
 
 if __name__ == '__main__':
-    # url = 'https://v6.exchangerate-api.com/v6/7ebc225413b1d3846a9a0042/latest/USD'
     url = 'https://api.exchangerate-api.com/v4/latest/USD'
     converter = RealTimeConverter(url)
 
