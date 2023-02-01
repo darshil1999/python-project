@@ -280,7 +280,7 @@ def game_front_screen():
                 waiting = False
                 
 
-#####mainloop
+# mainloop
 
 game_over = True        
 game_running = True 
